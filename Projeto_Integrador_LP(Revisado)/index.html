@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>12ª Semana Tecnológica UCPel — Além do Código</title>
+  <meta name="description" content="Landing page da 12ª Semana Tecnológica da Universidade Católica de Pelotas (UCPel). Evento com palestras, workshops e maratona de programação." />
+  <link rel="icon" type="image/png" href="assets/images/logo_ucpel2.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho com o menu de navegação -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" aria-label="Navegação Principal">
+      <a href="#inicio" class="navbar-brand">
+        <img src="assets/images/logo-ucpel.png" alt="Logotipo da UCPel" class="navbar-logo" />
+      </a>
+
+      <div class="navbar-links">
+        <a href="#inicio" class="nav-link">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#programacao" class="nav-link">Programação</a>
+        <a href="#participantes" class="nav-link">Palestrantes</a>
+        <a href="#organizacao" class="nav-link">Organização</a>
+        <a href="#edicoes" class="nav-link">Edições</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </div>
+
+      <div class="navbar-actions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfc0gS4WqPtvzkVYNm6XjtqQkCENZ1kCkAvpMxKJuhXEse3Yw/viewform?usp=publish-editor" target="_blank" rel="noopener" class="btn-primary">
+          Inscreva-se
+        </a>
+
+        <!-- Botão do menu hambúrguer (só aparece no celular) -->
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir Menu de Navegação">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Menu que abre no celular -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <a href="#inicio" class="nav-link">Início</a>
+    <a href="#sobre" class="nav-link">Sobre</a>
+    <a href="#programacao" class="nav-link">Programação</a>
+    <a href="#participantes" class="nav-link">Palestrantes</a>
+    <a href="#organizacao" class="nav-link">Organização</a>
+    <a href="#edicoes" class="nav-link">Edições</a>
+    <a href="#contato" class="nav-link">Contato</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfc0gS4WqPtvzkVYNm6XjtqQkCENZ1kCkAvpMxKJuhXEse3Yw/viewform?usp=publish-editor" target="_blank" rel="noopener" class="btn-primary">Inscreva-se Gratuitamente</a>
+  </div>
+
+  <main>
+
+    <!-- SEÇÃO 1: INÍCIO -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-banner-wrap">
+        <img src="assets/images/banner_PI_IV_A.png" alt="Banner da Semana Tecnológica UCPel, no estilo anime, feito com IA" class="hero-banner-img" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-card">
+          <h1 class="hero-title">12ª Semana<br />Tecnológica<br />UCPel</h1>
+          <p class="hero-subtitle">
+            Além do código: criatividade, conhecimento e inovação para transformar o futuro.
+          </p>
+
+          <div class="hero-infobox">
+            <div class="hero-info-item">
+              <span class="hero-info-icon">📅</span>
+              <div>
+                <div class="hero-info-label">DATA</div>
+                <div class="hero-info-val">17 a 20 de novembro de 2026</div>
+              </div>
+            </div>
+
+            <div class="hero-info-item">
+              <span class="hero-info-icon">📍</span>
+              <div>
+                <div class="hero-info-label">LOCAL</div>
+                <div class="hero-info-val">Universidade Católica de Pelotas — Campus I (Pelotas, RS)</div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfc0gS4WqPtvzkVYNm6XjtqQkCENZ1kCkAvpMxKJuhXEse3Yw/viewform?usp=publish-editor" target="_blank" rel="noopener" class="hero-btn-cta">
+            Inscreva-se Gratuitamente
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: SOBRE O EVENTO -->
+    <section id="sobre" class="section section-bg-paper">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Sobre o Evento</h2>
+          <p class="section-subtitle">
+            Um dos maiores encontros de tecnologia e inovação acadêmica do sul do estado do Rio Grande do Sul.
+          </p>
+        </div>
+
+        <div class="sobre-grid">
+          <div class="sobre-textbox">
+            <p>
+              A <strong>12ª Semana Tecnológica da UCPel</strong> reúne estudantes, pesquisadores, docentes e profissionais líderes de tecnologia em quatro dias de intensa imersão prática e teórica.
+            </p>
+            <p>
+              O evento abordará as tendências mais disruptivas do mercado, como Inteligência Artificial Generativa, Engenharia de Nuvem, Cibersegurança, Arquitetura de Software e Desenvolvimento de Produtos Digitais, promovendo a conexão direta entre a universidade e as principais empresas do polo tecnológico.
+            </p>
+            <p>
+              Todos os participantes inscritos que atingirem a frequência mínima receberão <strong>certificado oficial com 40 horas complementares</strong> emitido pela Pró-Reitoria Acadêmica da UCPel.
+            </p>
+          </div>
+
+          <!-- Carrossel: só um slide fica visível por vez -->
+          <div class="carousel-card">
+            <div class="carousel-viewport">
+              <div class="carousel-slide active">
+                <img src="assets/images/palestra.jpg" alt="Foto de palestra do evento" />
+                <div class="carousel-overlay">
+                  <div class="carousel-tag">DESTAQUES</div>
+                  <div class="carousel-title">— Palestras</div>
+                </div>
+              </div>
+
+              <div class="carousel-slide">
+                <img src="assets/images/workshop.jpg" alt="Foto de alunos em workshop prático" />
+                <div class="carousel-overlay">
+                  <div class="carousel-tag">DESTAQUE 2</div>
+                  <div class="carousel-title">— Workshops</div>
+                </div>
+              </div>
+
+              <div class="carousel-slide">
+                <img src="assets/images/desafio.jpg" alt="Foto de equipes no desafio de programação" />
+                <div class="carousel-overlay">
+                  <div class="carousel-tag">DESTAQUE 3</div>
+                  <div class="carousel-title">— Desafios </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-footer">
+              <button type="button" class="carousel-btn" id="carousel-prev" aria-label="Foto anterior">←</button>
+              <div class="carousel-dots">
+                <div class="carousel-dot active"></div>
+                <div class="carousel-dot"></div>
+                <div class="carousel-dot"></div>
+              </div>
+              <button type="button" class="carousel-btn" id="carousel-next" aria-label="Próxima foto">→</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: PROGRAMAÇÃO -->
+    <section id="programacao" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Programação</h2>
+          <p class="section-subtitle">Grade de atividades completa dos três dias do evento.</p>
+        </div>
+
+        <h3 class="schedule-day-title">Dia 1</h3>
+        <div class="schedule-grid">
+          <div class="schedule-card">
+            <span class="schedule-time">08:30</span>
+            <span class="schedule-activity-title">Abertura Oficial e Boas-Vindas da Reitoria e Coordenação</span>
+          </div>
+          <div class="schedule-card">
+            <span class="schedule-time">09:00</span>
+            <span class="schedule-activity-title">Keynote: O Futuro da Inteligência Artificial e da Engenharia de Software</span>
+          </div>
+          <div class="schedule-card intervalo">
+            <span class="schedule-time">10:00</span>
+            <span class="schedule-activity-title">Coffee Break & Sessão de Networking</span>
+          </div>
+          <div class="schedule-card workshop">
+            <span class="schedule-time">10:20</span>
+            <span class="schedule-activity-title">Minicurso Prático: Desenvolvimento Full-Stack com Modern Web e APIs</span>
+          </div>
+          <div class="schedule-card intervalo">
+            <span class="schedule-time">12:00</span>
+            <span class="schedule-activity-title">Intervalo para Almoço</span>
+          </div>
+          <div class="schedule-card">
+            <span class="schedule-time">13:30</span>
+            <span class="schedule-activity-title">Palestra: Arquitetura de Nuvem e Microsserviços em Escala</span>
+          </div>
+          <div class="schedule-card painel">
+            <span class="schedule-time">14:45</span>
+            <span class="schedule-activity-title">Painel: Desafios e Oportunidades no Mercado Tech da Região Sul</span>
+          </div>
+        </div>
+
+        <h3 class="schedule-day-title">Dia 2</h3>
+        <div class="schedule-grid">
+          <div class="schedule-card">
+            <span class="schedule-time">09:00</span>
+            <span class="schedule-activity-title">Palestra: Cibersegurança, Privacidade e Defesa Digital na Prática</span>
+          </div>
+          <div class="schedule-card intervalo">
+            <span class="schedule-time">10:00</span>
+            <span class="schedule-activity-title">Coffee Break</span>
+          </div>
+          <div class="schedule-card workshop">
+            <span class="schedule-time">10:20</span>
+            <span class="schedule-activity-title">Workshop: Ciência de Dados & Machine Learning com Python</span>
+          </div>
+          <div class="schedule-card intervalo">
+            <span class="schedule-time">12:00</span>
+            <span class="schedule-activity-title">Almoço</span>
+          </div>
+          <div class="schedule-card atividade">
+            <span class="schedule-time">13:30</span>
+            <span class="schedule-activity-title">Início da Maratona e Desafio Tecnológico UCPel (Hackathon)</span>
+          </div>
+          <div class="schedule-card painel">
+            <span class="schedule-time">16:00</span>
+            <span class="schedule-activity-title">Mesa Redonda: Carreira Tech, Mentoria e Primeiro Emprego</span>
+          </div>
+        </div>
+
+        <h3 class="schedule-day-title">Dia 3</h3>
+        <div class="schedule-grid">
+          <div class="schedule-card">
+            <span class="schedule-time">09:00</span>
+            <span class="schedule-activity-title">Palestra: Inovação Aberta, Startups e Empreendedorismo Acadêmico</span>
+          </div>
+          <div class="schedule-card atividade">
+            <span class="schedule-time">10:30</span>
+            <span class="schedule-activity-title">Apresentação e Demonstração dos Projetos do Desafio Tecnológico</span>
+          </div>
+          <div class="schedule-card intervalo">
+            <span class="schedule-time">12:30</span>
+            <span class="schedule-activity-title">Intervalo para Almoço</span>
+          </div>
+          <div class="schedule-card encerramento">
+            <span class="schedule-time">14:00</span>
+            <span class="schedule-activity-title">Premiação do Desafio, Cerimônia de Encerramento e Entrega de Certificados</span>
+          </div>
+        </div>
+
+        <div class="schedule-notice">
+          <span>⚠️</span>
+          <span>Grade sujeita a pequenos ajustes. Horários e salas serão confirmados por e-mail a todos os inscritos.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 4: PALESTRANTES -->
+    <section id="participantes" class="section section-bg-paper">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Palestrantes</h2>
+          <p class="section-subtitle">Especialistas de referência acadêmica na área de tecnologia confirmados.</p>
+        </div>
+
+        <div class="speakers-grid">
+          <div class="speaker-card">
+            <div class="speaker-avatar-box">
+              <img src="assets/images/pfCV.png" alt="Foto de Carlos Vinícius" class="speaker-avatar-img" />
+            </div>
+            <div class="speaker-name">Prof. Msc. Carlos Vinícius</div>
+            <div class="speaker-role">Doutorando em Computação • Professor e Coordenador de Pós-Graduações em TI na UCPEL • CEO da Brainny Smart Solutions</div>
+            <div class="speaker-socials">
+              <a href="https://www.linkedin.com/in/cvrasch/" target="_blank" rel="noopener" class="speaker-social-link">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="speaker-card">
+            <div class="speaker-avatar-box">
+              <img src="assets/images/pfMM.jpeg" alt="Foto de Morgana M. A. da Rosa" class="speaker-avatar-img" />
+            </div>
+            <div class="speaker-name">Prof.ª Dra. Morgana M. A. da Rosa</div>
+            <div class="speaker-role">Doutora em Ciência da Computação • Professora da UCPEL • Pesquisadora em Microeletrônica e Processamento de Sinais</div>
+            <div class="speaker-socials">
+              <a href="https://www.linkedin.com/in/morgana-macedo-547a21180/" target="_blank" rel="noopener" class="speaker-social-link">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="speaker-card">
+            <div class="speaker-avatar-box">
+              <img src="assets/images/alanT.jpg" alt="Foto de Alan Mathison Turing" class="speaker-avatar-img" />
+            </div>
+            <div class="speaker-name">Alan Mathison Turing</div>
+            <div class="speaker-role">Matemático • Pai da Computação • Pioneiro da Inteligência Artificial</div>
+            <div class="speaker-socials">
+              <a href="https://pt.wikipedia.org/wiki/Alan_Turing" target="_blank" rel="noopener" class="speaker-social-link">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 5: ORGANIZAÇÃO -->
+    <section id="organizacao" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Organização</h2>
+          <p class="section-subtitle">Instituições e equipe responsável pela coordenação da 12ª Semana Tecnológica.</p>
+        </div>
+
+        <div class="orgs-grid">
+          <div class="org-card">
+            <img src="assets/images/logo_ucpel2.png" alt="Logo UCPel" class="org-logo" />
+            <div class="org-card-title">UCPel</div>
+            <div class="org-card-desc">Universidade Católica de Pelotas — Instituição Anfitriã</div>
+          </div>
+        </div>
+
+        <div class="committee-box">
+          <div class="committee-title">Comissão Organizadora do Evento</div>
+          <div class="committee-grid">
+            <div class="committee-item">
+              <span class="committee-role">Coordenação Geral</span>
+              <span class="committee-name">A definir</span>
+            </div>
+            <div class="committee-item">
+              <span class="committee-role">Coordenação de Minicursos & Oficinas</span>
+              <span class="committee-name">A definir</span>
+            </div>
+            <div class="committee-item">
+              <span class="committee-role">Comissão do Desafio Tecnológico</span>
+              <span class="committee-name">A definir</span>
+            </div>
+            <div class="committee-item">
+              <span class="committee-role">Comissão de Logística e Comunicação</span>
+              <span class="committee-name">A definir</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 6: EDIÇÕES ANTERIORES -->
+    <section id="edicoes" class="section section-bg-paper">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Edições Anteriores</h2>
+          <p class="section-subtitle">Conheça as edições anteriores da Semana Tecnológica e acompanhe a evolução do evento.</p>
+        </div>
+
+        <div class="editions-list">
+          <div class="edition-card">
+            <div class="edition-thumb">
+              <img src="assets/images/edicao-2025.png" alt="11ª Semana Tecnológica UCPel (2025)" class="edition-thumb-img" />
+            </div>
+            <div class="edition-content">
+              <div class="edition-header-row">
+                <span class="edition-year">2025</span>
+                <span class="edition-number">11ª Edição</span>
+              </div>
+              <div class="edition-theme"><strong>Do Chip à Nuvem:</strong> Sistemas Embarcados, IoT e Computação de Alto Desempenho.</div>
+            </div>
+            <div class="edition-actions">
+              <a href="https://burningvicky.github.io/semanaTecnologica/" target="_blank" rel="noopener" class="btn-outline">Acessar página do evento</a>
+            </div>
+          </div>
+
+          <div class="edition-card">
+            <div class="edition-thumb">
+              <img src="assets/images/edicao-2024.png" alt="10ª Semana Tecnológica UCPel (2024)" class="edition-thumb-img" />
+            </div>
+            <div class="edition-content">
+              <div class="edition-header-row">
+                <span class="edition-year">2024</span>
+                <span class="edition-number">10ª Edição</span>
+              </div>
+              <div class="edition-theme"><strong>Reflexões e Perspectivas da Inteligência Artificial para a Próxima Geração.</strong></div>
+            </div>
+            <div class="edition-actions">
+              <a href="https://st2024ucpel.exehda.org/doku.php?id=start" target="_blank" rel="noopener" class="btn-outline">Acessar página do evento</a>
+            </div>
+          </div>
+
+          <div class="edition-card">
+            <div class="edition-thumb">
+              <img src="assets/images/edicao-2023.png" alt="9ª Semana Tecnológica UCPel (2023)" class="edition-thumb-img" />
+            </div>
+            <div class="edition-content">
+              <div class="edition-header-row">
+                <span class="edition-year">2023</span>
+                <span class="edition-number">9ª Edição</span>
+              </div>
+              <div class="edition-theme"><strong>Serviço às Pessoas e à Sociedade:</strong> Tecnologia com Impacto Social e Cidadania.</div>
+            </div>
+            <div class="edition-actions">
+              <a href="http://olaria.ucpel.edu.br/st2023/doku.php" target="_blank" rel="noopener" class="btn-outline">Acessar página do evento</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 7: CONTATO -->
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contato</h2>
+          <p class="section-subtitle">Canais de comunicação com a organização da 12ª Semana Tecnológica UCPel.</p>
+        </div>
+
+        <div class="contact-cards-grid">
+          <div class="contact-card">
+            <span class="contact-card-icon">✉️</span>
+            <div>
+              <div class="contact-card-label">E-MAIL OFICIAL</div>
+              <div class="contact-card-val"><a href="mailto:allankesleyedo@gmail.com">central@ucpel.edu.br</a></div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card-icon">☎️</span>
+            <div>
+              <div class="contact-card-label">TELEFONE</div>
+              <div class="contact-card-val"><a href="tel:+555321288000">(53) 2128-8000</a> / <a href="tel:+555321288240">8240</a></div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-card-icon">📍</span>
+            <div>
+              <div class="contact-card-label">ENDEREÇO</div>
+              <div class="contact-card-val">UCPel — Rua Félix da Cunha, 412, Pelotas - RS</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-social-section">
+          <div class="contact-social-label">Canais Institucionais da UCPel</div>
+          <div class="contact-socials-grid">
+            <a href="https://www.instagram.com/ucpel/" target="_blank" rel="noopener" class="contact-social-btn">Instagram</a>
+            <a href="https://www.linkedin.com/school/ucpel/" target="_blank" rel="noopener" class="contact-social-btn">LinkedIn</a>
+            <a href="https://www.youtube.com/@ucpel" target="_blank" rel="noopener" class="contact-social-btn">YouTube</a>
+            <a href="https://ucpel.edu.br" target="_blank" rel="noopener" class="contact-social-btn">Portal UCPel</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">12ª Semana Tecnológica UCPel</div>
+          <div class="footer-brand-desc">
+            Universidade Católica de Pelotas<br />
+            Pelotas, Rio Grande do Sul — Brasil<br />
+            Além do código: criatividade, conhecimento e inovação.
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navegação</div>
+          <ul class="footer-links-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre o Evento</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#participantes">Palestrantes</a></li>
+            <li><a href="#organizacao">Organização</a></li>
+            <li><a href="#edicoes">Edições Anteriores</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Links Úteis</div>
+          <ul class="footer-links-list">
+            <li><a href="https://ucpel.edu.br" target="_blank" rel="noopener">Portal UCPel</a></li>
+            <li><a href="https://pos.ucpel.edu.br" target="_blank" rel="noopener">Pós-Graduação</a></li>
+            <li><a href="https://editora.ucpel.edu.br" target="_blank" rel="noopener">Editora UCPel</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Semana Tecnológica UCPel — Todos os direitos reservados.</div>
+        <div>Projeto Integrador IV-A — Allan Kesley, Neri Oliveira e Tierres Griep</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
