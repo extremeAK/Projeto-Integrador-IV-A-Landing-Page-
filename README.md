@@ -10,6 +10,6 @@ Construído com **HTML5, CSS3 e JavaScript**.
 * `index.html` — Estrutura completa com todas as seções (Início, Sobre, Programação, Palestrantes, Organização, Edições Anteriores e Contato).
 * `css/style.css` — Estilização organizada em blocos, com variáveis de cor, tipografia e responsividade para dispositivos móveis.
 * `js/main.js` — Lógica interativa (menu mobile e carrossel de fotos).
-* `assets/images/` — Imagens, fotos dos destaques e logotipo oficial da UCPel.
+* `assets/images/` — Imagens, fotos de destaques, professores e logotipo oficial da UCPel.
 
 ---
